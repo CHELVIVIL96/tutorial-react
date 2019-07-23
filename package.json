@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://chelvivil96.github.io/Todo",
+  "homepage":"https://CHELVIVIL96.github.io",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
@@ -16,8 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
