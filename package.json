@@ -2,7 +2,7 @@
   "name": "react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://CHELVIVIL96.github.io",
+  "homepage":"https://CHELVIVIL96.github.io/tutorial-react",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
